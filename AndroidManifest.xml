@@ -1,0 +1,15 @@
+<activity 
+      android:name = ".MyActivity"
+      android:theme = "@style/LaunchTheme"
+>
+< meta-data 
+ android:name = "io.flutter.embedding.android.NormalTheme"
+ android:resource = "@style/NormalTheme"
+ android:name = "io.flutter.embedding.android.SplashScreenDrawable"controller"
+ android:resource = "@drawable/my_splash"
+ />
+ <intent-filter>
+     <action android:name = "android.intent.action.MAIN"></action>
+     <category android:name = "android.intent.category.LAUNCHER"></category>
+ </intent-filter> 
+</activity>
